@@ -1,4 +1,4 @@
-## 附录：受动极缺失不可定理（The Necessity of Passive Pole）
+## 附录：受动极必要性定理（*The Necessity of the Passive Pole*）
 
 > **版本**: 2.0.0  
 > **配套架构**: TDA 三层双视角辩证架构  
@@ -34,7 +34,7 @@
   - **$A$：能动极**（Active Pole），负责命题生成与推理。 $A(q) \in \mathcal{P}(\mathcal{J})$，对查询 $q$ 输出判断集合。
   - **$R$：受动极**（Receptive Pole），系统内部独立的事实读取通道，其读取行为不依赖 $A$ 的生成决策，其输出直接进入推理前提集。
 - **$\mathcal{F}$**：确定命题全集。
-- **$\mathcal{J}$：判断空间**，元素为条件式  $j = (P \Rightarrow Q)$ ，其中 为事实前提， $Q$ 为结论。
+- **$\mathcal{J}$：判断空间**，元素为条件式  $j = (P \Rightarrow Q)$ ，其中 $P$ 为事实前提， $Q$ 为结论。
 - **$F(w_t)$**：时刻 $t$ 的事实快照， $F(w_t) = \{ f \in \mathcal{F} \mid f.\text{effective}(t) \land f \in \text{Load}(R, w_t) \}$ 。
 - **$F(w_t, q)$**：目的相关事实子集， $F(w_t, q) = \text{Extract}(w_t, q) \subseteq F(w_t)$ 。
 
@@ -74,7 +74,7 @@ $$
 \forall q \in Q: A(q) \neq \emptyset
 $$
 
-#### 2.3 定理（受动极缺失不可定理）
+#### 2.3 定理（受动极必要性定理）
 
 $$
 \forall S = \langle A, \emptyset \rangle, \exists q \in Q, \exists j \in A(q): \neg \text{Valid}(j, t, q)
