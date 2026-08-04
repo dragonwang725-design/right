@@ -2,6 +2,9 @@
 
 ## ——*安全关键系统中判断的情境性与决策主体形成*
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21718874.svg)](https://doi.org/10.5281/zenodo.21718874)
+
+
 **摘要**
 #
 
