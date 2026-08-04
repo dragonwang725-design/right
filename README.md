@@ -361,7 +361,7 @@ TDA已完成核心机制的仿真验证（动态阈值在分类任务中将漏�
 
 ## 九、[附录](Appendix_G.md)
 
-**受动极缺失不可定理（The Necessity of Passive Pole）**
+**受动极必要性定理**（*The Necessity of the Passive Pole*）
 
 > **版本**: 2.0.0  
 > **配套架构**: TDA 三层双视角辩证架构  
