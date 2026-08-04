@@ -1,4 +1,4 @@
-## 附录 G：受动极缺失不可定理（The Necessity of Passive Pole）
+## 附录：受动极缺失不可定理（The Necessity of Passive Pole）
 
 > **版本**: 2.0.0  
 > **配套架构**: TDA 三层双视角辩证架构  
